@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+section{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.form-group{
+  width: 100%;
+  margin-top: 5px;
+  font-size: 20px;
+  padding: 15px;
+}
+.form-group input{
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid skyblue;
+
+}
+button[type="submit"]{
+width: 100%;
+border: none;
+outline: none;
+padding: 15px;
+font-size: 20px;
+border-radius: 8px;
+font-family: 'Arial';
+color: rgb(255, 255, 255);
+background-color: rgb(28, 133, 218);
+text-align: center;
+cursor: pointer;
+  margin-top: 5px;}
+
+button :disabled, button[disabled]
+{
+width: 100%;
+border: none;
+outline: none;
+padding: 15px;
+font-size: 20px;
+border-radius: 8px;
+font-family: 'Arial';
+color: rgb(255, 255, 255);
+background-color: grey;
+text-align: center;
+cursor: pointer;
+  margin-top: 5px; }
+
+
+  .form-groupreg{
+    width: 100%;
+    margin-top: 1px;
+    font-size: 20px;
+    padding: 1px;
+  }
+
+  .form-groupreg input{
+    width: 40%;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid skyblue;
+  
+  }
+.form-groupreg1{
+  position: relative;
+  left: 340px;
+  top: -35px;
+  line-height:10px;
+  padding: 0 18px;
+  font-size: 18px;
+}
+.form-groupreg1 input{
+  width: 42%;
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid skyblue;
+
+}
+#upload{
+  width: 40%;
+  padding: 10px;
+  font-size: 18px;
+  border: 3px solid skyblue;
+}

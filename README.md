@@ -2,6 +2,7 @@
 
 This project is a secure web-based Online Voting System designed for college elections.  
 It enables students to cast their votes digitally without visiting the campus, making the election process faster and more accessible.  
+
 The system was developed using PHP, MySQL, HTML, CSS, JavaScript, jQuery, and Apache, as part of the BCA Mini Project at Mar Augusthinose College.
 
 ---
